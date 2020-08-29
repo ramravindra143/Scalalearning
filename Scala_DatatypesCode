@@ -1,0 +1,21 @@
+object Datatypes_Part1 {
+ val df = 10 //Field Variables
+ val ravindra ="Ravindra is a life long learner"
+  def main(args: Array[String]): Unit = {
+    println("Hello, world!")
+    println("This is the datatype code part")
+    val x =10
+    //var x =20
+    println(df)
+    println(ravindra)
+ //Input is method parameter variable 
+    def stringoperator (Input:String): Unit ={
+      
+	  val x = "Local variables" //Local variable in the code 
+	  println(Input +x )
+	  
+    }
+    stringoperator(ravindra)
+  }
+
+}
